@@ -7,6 +7,9 @@
 # Had to install a specific version of pandas-profiling == 2.8.0 to get it to work.
 # https://github.com/pandas-profiling/pandas-profiling/issues/528
 
+# Dataset gotten from UCI ML repository
+# http://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset
+
 
 # Import libraries here
 import numpy as np
@@ -31,7 +34,7 @@ This is **V1 of the EDA App** created in Streamlit using the **pandas-profiling*
 with st.sidebar.header('1. Upload CSV data here:'):
     uploaded_file = st.sidebar.file_uploader("Upload input CSV file", type=["csv"])
     st.sidebar.markdown("""
-    [Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
+    [Example CSV input file](http://archive.ics.uci.edu/ml/machine-learning-databases/00601/ai4i2020.csv)
 """)
 
 # Pandas Profiling Report
