@@ -6,6 +6,7 @@
 # https://github.com/pandas-profiling/pandas-profiling
 # Had to install a specific version of pandas-profiling == 2.8.0 to get it to work.
 # https://github.com/pandas-profiling/pandas-profiling/issues/528
+# Changed python version to 3.8 for compatibility
 
 # Dataset gotten from UCI ML repository
 # http://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset
@@ -44,7 +45,7 @@ if uploaded_file is not None:
         csv = pd.read_csv(uploaded_file)
         return csv
     df = load_csv()
-    pr = ProfileReport(df, explorative=True)
+    pr = ProfileReport(df, explorative=True, interactions=None)
     st.header('**Input DataFrame**')
     st.write(df)
     st.write('---')
