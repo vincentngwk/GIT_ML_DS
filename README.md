@@ -16,7 +16,9 @@
 **Imbalanced Classification in Python (ML_projects\imbalanced_classification)**
 
 *Imbalanced datasets pose a challenge to the performance of Machine Learning algorithms. Various techniques can be applied to help with this challenge, either at the data pre-processing step, or via tweaks to the algorithms itself.*
-> Main packages used: sklearn, imblearn, xgboost, pandas, numpy, matplotlib, collections
+> Main packages used: sklearn, imblearn, xgboost, pandas, numpy, matplotlib, collections.
+
+> Main techniques used: Data Sampling, Cost-Sensitive Algorithms, Probability Threshold Moving, One-Class Algorithms.
 
 Haberman Breast Cancer Classification:
 * Techniques: `Scaling, Normalization, Probabilistic Models`
