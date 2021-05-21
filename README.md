@@ -20,10 +20,10 @@ Haberman Breast Cancer Classification:
 - Techniques: `Scaling, Normalization, Probabilistic Models`
 
 Oil Spill Classification:
-- Techniques: `Scaling, Normalization, Probabilistic Models, Data Sampling - SMOTEENN`
+* Techniques: `Scaling, Normalization, Probabilistic Models, Data Sampling - SMOTEENN`
 
 German Credit Classification:
-- Techniques: `One-Hot Encoding, Scaling, Undersampling`
+* Techniques: `One-Hot Encoding, Scaling, Undersampling`
 
 Microcalcification Classification:
 - Techniques: `Normalization, Cost-sensitive classification algorithms`
