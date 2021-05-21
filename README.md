@@ -48,7 +48,7 @@ One-Class Algorithms:
 - explainerdashboard app
 
 **R Shiny Apps:**
-* [Shiny inVIZments](https://vincentngwk.shinyapps.io/shinyinVIZments/)
+* Interact with the web-app here: [Shiny inVIZments](https://vincentngwk.shinyapps.io/shinyinVIZments/)
 > Main packages used: tidyverse, tidyquant, timetk, modeltime, dygraphs, shinydashboardplus, shiny, candlestickpattern, etc.
 - Shiny App modularization
 - Technical Indicators and Candlestick Charts
