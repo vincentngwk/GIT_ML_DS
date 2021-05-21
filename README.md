@@ -13,32 +13,34 @@
 - I also enjoy building various apps related to visualizations and data analytics.
 
 ## Projects
-Imbalanced Classification in Python (ML_projects\imbalanced_classification)
+**Imbalanced Classification in Python (ML_projects\imbalanced_classification)**
 > Main packages used: sklearn, imblearn, xgboost, pandas, numpy, matplotlib, collections
-Haberman Breast Cancer Classification
-- Techniques: Scaling, Normalization, Probabilistic Models
-Oil Spill Classification
-- Techniques: Scaling, Normalization, Probabilistic Models, Data Sampling - SMOTEENN
-German Credit Classification
-- Techniques: One-Hot Encoding, Scaling, Undersampling
-Microcalcification Classification
-- Techniques: Normalization, Cost-sensitive classification algorithms
-Phoneme Classification
-- Techniques: Scaling, Oversampling
-Probability Threshold Moving
-- Techniques: Probability Threshold Moving Optimization (ROC + G-mean scores, Precision-Recall Curve + F1-score)
-XGBoost
-- Techniques: Normalization, Data Sampling, Scaling error gradient on minority/ positive class with 'scale_pos_weight' parameter
-Ensemble Algorithms
-- Techniques: Normalization, Balanced ensemble algorithms
-One-Class Algorithms
-- Techniques: Scaling, Normalization, One-Class algorithms (SVM, Isolation Forests, MCD, Local Outlier Factor)
 
-Streamlit Apps
+Haberman Breast Cancer Classification:
+- Techniques: `Scaling, Normalization, Probabilistic Models`
+Oil Spill Classification:
+- Techniques: `Scaling, Normalization, Probabilistic Models, Data Sampling - SMOTEENN`
+German Credit Classification:
+- Techniques: `One-Hot Encoding, Scaling, Undersampling`
+Microcalcification Classification:
+- Techniques: `Normalization, Cost-sensitive classification algorithms`
+Phoneme Classification:
+- Techniques: `Scaling, Oversampling`
+Probability Threshold Moving:
+- Techniques: `Probability Threshold Moving Optimization (ROC + G-mean scores, Precision-Recall Curve + F1-score)`
+XGBoost:
+- Techniques: `Normalization, Data Sampling, Scaling error gradient on minority/ positive class with 'scale_pos_weight' parameter`
+Ensemble Algorithms:
+- Techniques: `Normalization, Balanced ensemble algorithms`
+One-Class Algorithms:
+- Techniques: `Scaling, Normalization, One-Class algorithms (SVM, Isolation Forests, MCD, Local Outlier Factor)`
+
+**Streamlit Apps:**
 - pandas profiling app
 - explainerdashboard app
 
-R Shiny Apps: [Shiny inVIZments](https://vincentngwk.shinyapps.io/shinyinVIZments/)
+**R Shiny Apps:**
+* [Shiny inVIZments](https://vincentngwk.shinyapps.io/shinyinVIZments/)
 > Main packages used: tidyverse, tidyquant, timetk, modeltime, dygraphs, shinydashboardplus, shiny, candlestickpattern, etc.
 - Technical Indicators and Candlestick Charts
 - Correlation Analysis
